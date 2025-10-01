@@ -1,4 +1,4 @@
-import Button from "../utils/Button"
+import Button from "../utils/Button.jsx"
 
 function AuthBtn(props) {
     return (

@@ -1,6 +1,6 @@
-import Input from '../utils/Input'
-import Button from '../utils/Button'
-import Link   from '../Header/Link'
+import Input from '../utils/Input.jsx'
+import Button from '../utils/Button.jsx'
+import Link   from '../Header/Link.jsx'
 
 function Register() {
     return (
