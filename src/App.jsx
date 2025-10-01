@@ -1,10 +1,11 @@
-import Button from "./components/utils/Button";
-
+import Register from './components/auth/Register'
 
 function App() {
   return (
     <div>
-      
+      <div className="">
+        <Register />
+      </div>
     </div>
   )
 }
