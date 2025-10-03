@@ -1,0 +1,62 @@
+import Button from '../utils/Button'
+import Input from '../utils/Input'
+import Aperçu from '../utils/Aperçu'
+
+function Contact() {
+    return (
+        <div className='flex flex-row justify-between mx-8 '>
+            <div className='flex flex-col space-y-3 w-3/5'>
+                <div className='flex flex-row justify-between  '>
+                    <h1 className=' font-bold text-[20px] text-blue-950 '> Configuration de du Qr code </h1>
+                    <Button className=" bg-gray-100  hover:bg-amber-400 ">Changer de type </Button>
+                </div>
+
+                <div className=' space-y-5 shadow rounded-xl p-6 '>
+                    <div className='flex flex-col gap-2'>
+                        <img src="" alt="" />
+                        <h3 className='text-blue-950 font-bold text-[20px] '>Contact vCard</h3>
+                    </div>
+
+                    <div className='flex flex-row gap-2'>
+                        <div>
+                            <label htmlFor="url" className=' text-blue-950 font-semibold text-[17px]'>Prenom</label>
+                            <Input placeholder="https://exemple.com" id="url" name="url" className=" w-full h-10  rounded-xl border-gray-200 px-3 ml-[-5px]" />
+                        </div>
+
+                        <div>
+                            <label htmlFor="url" className=' text-blue-950 font-semibold text-[17px]'>Nom</label>
+                            <Input placeholder="https://exemple.com" id="url" name="url" className=" w-full h-10  rounded-xl border-gray-200 px-3 ml-[-5px]" />
+                        </div>
+                    </div>
+
+                    <div>
+                        <label htmlFor="url" className=' text-blue-950 font-semibold text-[17px]'>Telephone</label>
+                        <Input placeholder="https://exemple.com" id="url" name="url" className=" w-full h-10  rounded-xl border-gray-200 px-3 ml-[-5px]" />
+                    </div>
+
+                    <div>
+                        <label htmlFor="url" className=' text-blue-950 font-semibold text-[17px]'>Email</label>
+                        <Input placeholder="https://exemple.com" id="url" name="url" className=" w-full h-10  rounded-xl border-gray-200 px-3 ml-[-5px]" />
+                    </div>
+
+                    <div>
+                        <label htmlFor="url" className=' text-blue-950 font-semibold text-[17px]'>Entreprise</label>
+                        <Input placeholder="https://exemple.com" id="url" name="url" className=" w-full h-10  rounded-xl border-gray-200 px-3 ml-[-5px]" />
+                    </div>
+
+                    <div className='flex flex-row justify-left gap-3'>
+                        <Button className="bg-blue-800 text-white rounded-xl"> Génerer le QR </Button>
+                        <Button className="text-blue-900 rounded-xl "> Aperçu </Button>
+                    </div>
+                </div>
+            </div>
+
+            <div className=''>
+                <Aperçu></Aperçu>
+            </div>
+        </div>
+    )
+}
+
+
+export default Contact

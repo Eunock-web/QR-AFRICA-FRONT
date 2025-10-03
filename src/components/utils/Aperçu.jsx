@@ -1,7 +1,6 @@
 
 
-
-function Card() {
+function Aperçu() {
     return (
         <div>
 
@@ -9,5 +8,4 @@ function Card() {
     )
 }
 
-
-export default Card
+export default Aperçu

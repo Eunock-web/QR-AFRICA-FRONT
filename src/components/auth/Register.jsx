@@ -4,10 +4,10 @@ import Link   from '../Header/Link.jsx'
 
 function Register() {
     return (
-        <div className=' bg-gradient-to-br from-blue-400 via-green-900 to-green-500'>
-            <div className="  flex flex-col items-center space-y-4 ">
-                <div className='bg-blue-50 px-5  border rounded-xl border-blue-50 w-[500px]'>
-                    <div className="space-y-4">
+        <div className="">
+            <div className=" flex flex-col items-center space-y-4 ">
+                <div className='bg-blue-50 px-5  border rounded-xl border-blue-50 '>
+                    <div className="space-y-2 mb-5">
                         <h3 className="text-2xl text-center font-bold text-blue-800">S'inscrire</h3>
                         <p className="text-center text-blue-400 "> Rejoignez Qr Africa et créez vos QR codes personnalisés </p>
                     </div>
@@ -62,7 +62,7 @@ function Register() {
                         </div>
 
                         <div className=''>
-                            <p className='flex flex-row justify-center gap-4'>Vous avez déjà un compte ? <span> <Link className=""> Se connecter  </Link> </span> </p>
+                            <p className='flex flex-row justify-center gap-4 font-extralight'>Vous avez déjà un compte ? <span> <Link className="font-semibold"> Se connecter  </Link> </span> </p>
                         </div>
                     </div>
                 </div>
