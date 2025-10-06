@@ -8,7 +8,8 @@ import NavBar from './components/header/NavBar'
 function App() {
   return (
     <div className="">
-      <NavBar />
+      {/* <NavBar /> */}
+      <Login />
       {/* <Create /> */}
     </div>
   )
