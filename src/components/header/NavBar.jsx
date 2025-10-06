@@ -4,8 +4,8 @@ import Button from "../utils/Button";
 
 function NavBar() {
   return (
-    <div>
-      <nav className="flex items-center justify-between mx-[4%] py-4 ">
+    <div className="">
+      <nav className="flex items-center justify-between mx-[4%] py-4">
         {/* Logo */}
         <div className="flex items-center space-x-3">
           <QrCode className="w-8 h-8 text-white bg-blue-800 p-1 border rounded-xl" />
@@ -22,7 +22,7 @@ function NavBar() {
 
         {/* Buttons */}
         <div className="flex gap-4">
-          <Button className="bg-white border rounded-xl hover:bg-amber-400">
+          <Button className="bg-white border-0 rounded-xl hover:bg-amber-400">
             Se connecter
           </Button>
           <Button className="rounded-xl bg-amber-400">Commencer</Button>
