@@ -10,13 +10,16 @@ import Email from './components/pages/Email'
 import Texte from './components/pages/Texte'
 import Paiement from './components/pages/Paiement'
 import Wifis from './components/pages/Wifis'
+import Aperçu from './components/utils/Aperçu'
 
 function App() {
   return (
     <div className="">
-      <NavBar />
-      {/* <Login /> */}
-      <Wifis />
+      {/* <NavBar /> */}
+      {/* <Register /> */}
+      <Login />
+      {/* <Aperçu /> */}
+
     </div>
   )
 }
