@@ -1,42 +1,37 @@
-<div className="navbar bg-base-100 shadow-sm">
-  <div className="navbar-start">
-    <div className="dropdown">
-      <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-      </div>
-      <ul
-        tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
-      </ul>
+import { QrCode } from "lucide-react";
+import Link from "./Link";
+import Button from "../utils/Button";
+
+function NavBar() {
+  return (
+    <div>
+      <nav className="flex items-center justify-between mx-[4%] py-4 ">
+        {/* Logo */}
+        <div className="flex items-center space-x-3">
+          <QrCode className="w-8 h-8 text-white bg-blue-800 p-1 border rounded-xl" />
+          <h1 className="text-[20px] font-bold text-blue-950">QR Africa</h1>
+        </div>
+
+        {/* Links */}
+        <div className="flex gap-8">
+          <Link href="#" className=" text-gray-400 text-[17px] hover:text-amber-500 ">Accueil</Link>
+          <Link href="#" className=" text-gray-400 text-[17px] hover:text-amber-500">Créer un QR </Link>
+          <Link href="#" className=" text-gray-400 text-[17px] hover:text-amber-500">Tableau de bord</Link>
+          <Link href="#" className=" text-gray-400 text-[17px] hover:text-amber-500">Tarifs</Link>
+        </div>
+
+        {/* Buttons */}
+        <div className="flex gap-4">
+          <Button className="bg-white border rounded-xl hover:bg-amber-400">
+            Se connecter
+          </Button>
+          <Button className="rounded-xl bg-amber-400">Commencer</Button>
+        </div>
+        
+      </nav>
+        <hr className=" border-gray-300 "/>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
-    </div>
-    
-  <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
-    </ul>
-  </div>
-  <div className="navbar-end">
-    <a className="btn">Button</a>
-  </div>
-</div>
+  );
+}
+
+export default NavBar;
