@@ -34,7 +34,7 @@ function Wifis() {
             </div>
 
             <div className=''>
-                <Aperçu></Aperçu>
+                <Aperçu />
             </div>
         </div>
     )

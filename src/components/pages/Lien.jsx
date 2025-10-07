@@ -28,7 +28,7 @@ function Lien() {
             </div>
 
             <div className=''>
-                <Aperçu></Aperçu>
+                <Aperçu />
             </div>
         </div>
     )

@@ -11,15 +11,16 @@ import Texte from './components/pages/Texte'
 import Paiement from './components/pages/Paiement'
 import Wifis from './components/pages/Wifis'
 import Aperçu from './components/utils/Aperçu'
+import Profil from './components/pages/Profil'
 
 function App() {
   return (
     <div className="">
-      {/* <NavBar /> */}
+      <NavBar />
       {/* <Register /> */}
       {/* <Login /> */}
-      <Aperçu />
-
+      {/* <Wifis /> */}
+      <Profil />
     </div>
   )
 }
