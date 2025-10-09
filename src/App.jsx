@@ -12,6 +12,10 @@ import Paiement from './components/pages/Paiement'
 import Wifis from './components/pages/Wifis'
 import Aperçu from './components/utils/Aperçu'
 import Profil from './components/pages/Profil'
+import Tarifs from './components/pages/Tarifs'
+import TarifsCard from './components/utils/TarifsCard'
+import TypeQrCard from './components/main/TypeQrCard'
+import Help from './components/pages/help'
 
 function App() {
   return (
@@ -20,7 +24,7 @@ function App() {
       {/* <Register /> */}
       {/* <Login /> */}
       {/* <Wifis /> */}
-      <Profil />
+      <Help />
     </div>
   )
 }
