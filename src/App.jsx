@@ -17,10 +17,11 @@ import TarifsCard from './components/utils/TarifsCard'
 import TypeQrCard from './components/main/TypeQrCard'
 import Help from './components/pages/help'
 import Tutoriel from './components/pages/Tutoriel'
+import NavBar2 from './components/Header/NavBar2'
 function App() {
   return (
     <div className="">
-      <NavBar />
+      <NavBar2 />
       {/* <Register /> */}
       {/* <Login /> */}
       {/* <Wifis /> */}
