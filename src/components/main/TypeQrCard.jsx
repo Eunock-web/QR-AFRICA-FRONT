@@ -80,7 +80,7 @@ function TypeQrCard() {
                         </div>
 
                         <div className="flex flex-col space-y-2 ">
-                            <p className="text-gray-400">Connexio   n automatique à votre réseau WIFI sans mot de passe</p>
+                            <p className="text-gray-400">Connexio                                                  n automatique à votre réseau WIFI sans mot de passe</p>
                             <Button className="w-full text-blue-950 rounded-2xl">Créer maintenant</Button>
                         </div>
                     </div>
