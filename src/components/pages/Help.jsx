@@ -48,30 +48,30 @@ function Help() {
                 <div className="flex flex-col space-y-3">
                     <div className="flex flex-row gap-3 ">
                         <div className="w-1/2 flex flex-col space-y-3">
-                            <label htmlFor="nom">Nom</label>
+                            <label htmlFor="nom" className="text-blue-950">Nom complet</label>
                             <Input type="text"  name="nom" id="nom" className="w-full input"  />
                         </div>
 
                         <div className="w-1/2 flex flex-col space-y-3">
-                            <label htmlFor="email">Email</label>
+                            <label htmlFor="email" className="text-blue-950">Email</label>
                             <Input type="email" name="email" id="email" className="w-full input" />
                         </div>
                     </div>
                     
                     <div className="flex flex-col space-y-3">
-                        <label htmlFor="sujet">Sujet</label>
+                        <label htmlFor="sujet" className="text-blue-950">Sujet</label>
                         <Input type="text" name="sujet" id="sujet" className="w-full input" />
                     </div>
 
                     <div className="flex flex-col space-y-3">
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message" className="text-blue-950">Message</label>
                         <Input type="textarea" name="message" id="message" className="w-full textarea" />
                     </div>
 
                     <div className="flex flex-row gap-1 bg-blue-800 border border-blue-800 rounded-xl w-1/5 items-center justify-center ">
                         <SendIcon className="w-5 h-5 text-white mt-2 " />
                         <Button className="bg-blue-800 border border-blue-800 text-white">Envoyer le message</Button>
-                    </div>
+                 </div>
                 </div>
             </div>
             

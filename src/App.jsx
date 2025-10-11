@@ -24,7 +24,7 @@ function App() {
       {/* <Register /> */}
       {/* <Login /> */}
       {/* <Wifis /> */}
-      <Help />
+      <Tarifs />
     </div>
   )
 }
