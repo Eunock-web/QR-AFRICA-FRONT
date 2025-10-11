@@ -16,7 +16,7 @@ import Tarifs from './components/pages/Tarifs'
 import TarifsCard from './components/utils/TarifsCard'
 import TypeQrCard from './components/main/TypeQrCard'
 import Help from './components/pages/help'
-
+import Tutoriel from './components/pages/Tutoriel'
 function App() {
   return (
     <div className="">
@@ -24,7 +24,7 @@ function App() {
       {/* <Register /> */}
       {/* <Login /> */}
       {/* <Wifis /> */}
-      <Tarifs />
+      <Tutoriel />
     </div>
   )
 }
