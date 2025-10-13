@@ -18,6 +18,7 @@ import TypeQrCard from './components/main/TypeQrCard'
 import Help from './components/pages/help'
 import Tutoriel from './components/pages/Tutoriel'
 import NavBar2 from './components/Header/NavBar2'
+import DashboardStandard from './components/pages/DashboardStandard'
 function App() {
   return (
     <div className="">
@@ -25,7 +26,7 @@ function App() {
       {/* <Register /> */}
       {/* <Login /> */}
       {/* <Wifis /> */}
-      <Tutoriel />
+      <DashboardStandard />
     </div>
   )
 }
