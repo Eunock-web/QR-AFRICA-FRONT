@@ -29,7 +29,7 @@ function App() {
       {/* <Login /> */}
       {/* <Wifis /> */}
       <DashboardStandard />
-      {/* <Footer /> */}
+      <Footer />
       {/* <PostFooter /> */}
     </div>
   )
