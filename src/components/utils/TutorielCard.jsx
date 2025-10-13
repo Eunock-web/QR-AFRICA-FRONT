@@ -1,6 +1,6 @@
 
 
-function TutorielCard({props, Icon, titre="Total Tutoriels", soustitre="10"}) {
+function TutorielCard({Icon, titre="Total Tutoriels", soustitre="10"}) {
     return (
         <div className="w-[40%]">
             <div className="flex flex-row justify-between items-center  border border-gray-100  rounded-xl p-5">
