@@ -19,6 +19,8 @@ import Help from './components/pages/help'
 import Tutoriel from './components/pages/Tutoriel'
 import NavBar2 from './components/Header/NavBar2'
 import DashboardStandard from './components/pages/DashboardStandard'
+import Footer from './components/pages/Footer'
+import PostFooter from './components/Footer/PostFooter'
 function App() {
   return (
     <div className="">
@@ -27,6 +29,8 @@ function App() {
       {/* <Login /> */}
       {/* <Wifis /> */}
       <DashboardStandard />
+      {/* <Footer /> */}
+      {/* <PostFooter /> */}
     </div>
   )
 }
