@@ -4,6 +4,8 @@ import Aperçu from '../utils/Aperçu'
 import Down from '../utils/Down'
 import { User2 } from 'lucide-react'
 
+
+    
 function Contact() {
     return (
         <div className='flex flex-row justify-between mt-[5%] mx-[10%] '>
