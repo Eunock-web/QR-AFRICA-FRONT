@@ -9,7 +9,7 @@ function Contact() {
         <div className='flex flex-row justify-between mt-[5%] mx-[10%] '>
             <div className='flex flex-col space-y-3 w-3/5'>
                 <div className='flex flex-col mb-5 '>
-                    <h1 className=' font-bold text-[27px] text-blue-950 '> Créer un code Qr </h1>
+                    <h1 className='font-bold text-[27px] text-blue-950 '> Créer un code Qr </h1>
                     <p className='text-gray-400'>Choisissez le type de QR code que vous souhaitez créez </p>
                 </div>
 

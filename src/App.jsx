@@ -24,12 +24,12 @@ import PostFooter from './components/Footer/PostFooter'
 function App() {
   return (
     <div className="">
-      <NavBar2 />
-      {/* <Register /> */}
+      {/* <NavBar /> */}
+      <Register />
       {/* <Login /> */}
       {/* <Create /> */}
       {/* <Wifis /> */}
-      <DashboardStandard />
+      {/* <DashboardStandard /> */}
       {/* <Footer /> */}
       {/* <PostFooter /> */}
     </div>
