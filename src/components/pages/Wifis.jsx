@@ -18,10 +18,10 @@ function Wifis() {
                     <Button className=" bg-white border-0 text-blue-950  hover:bg-amber-400 ">Changer de type </Button>
                 </div>
 
-                <div className=' space-y-5 shadow-xl border border-gray-200 rounded-xl p-6 '>
+                <div className=' space-y-5 border border-gray-200 rounded-xl p-6 '>
                     <div className='flex flex-row gap-2'>
-                        <Wifi className='w-5 h-5 text-blue-900 mt-1' />
-                        <h3 className='text-blue-950 font-bold text-[20px] '> Wifi </h3>
+                        <Wifi className='w-10 h-10 text-blue-900 border border-blue-100 p-2 bg-blue-100 rounded-xl' />
+                        <h3 className='text-blue-950 font-bold  text-[20px] '> Wifi </h3>
                     </div>
 
                     <div className=' flex flex-col space-y-2'>

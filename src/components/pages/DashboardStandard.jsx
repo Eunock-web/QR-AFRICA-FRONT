@@ -1,5 +1,5 @@
 import Button from "../utils/Button"
-import { Plus, QrCode, Mail } from "lucide-react"
+import { Plus, QrCode, Mail, Activity, TrendingUp, BarChart2,Globe } from "lucide-react"
 import DashboardCard from "../utils/DashboardCard"
 import Input from "../utils/Input"
 import HistoriqueDashboardCard from "../utils/HistoriqueDashboardCard"
@@ -9,11 +9,16 @@ function DashboardStandard() {
     return (
     <div className="">
         <div className="mx-[2%] my-[2%] flex flex-col space-y-7 ">
-            <div className="flex flex-row justify-between border border-gray-300 rounded-xl p-4 ">
+            <div className="flex flex-row justify-between border border-gray-300 rounded-xl py-7 px-8 ">
                 <div className="flex flex-row">
-                    <div className="flex flex-col">
-                        <h1 className="text-blue-950 text-[25px] font-bold ">Tableau de bord</h1>
-                        <p className="text-gray-500 ">Bienvenue  dans votre espace QR Africa</p>
+                        <div className="flex flex-row gap-2">
+                            <div className="flex items-center">
+                                <BarChart2 className="w-12 h-12 text-white border border-blue-800 bg-blue-800 p-2 rounded-xl" />
+                            </div>
+                            <div className="flex flex-col">
+                                <h1 className="text-blue-950 text-[30px] font-bold ">Tableau de bord</h1>
+                                <p className="text-blue-900 text-[17px] ">Bienvenue  dans votre espace QR Africa</p>
+                            </div>
                     </div>
                 </div>
 
@@ -23,13 +28,13 @@ function DashboardStandard() {
                 </div>
             </div>
 
-            <div className="flex flex-row flex-wrap justify-between">
-                <DashboardCard text="gogoislife" soustitre="100f" Icon={QrCode} Icon2={QrCode} />
-                <DashboardCard text="gogoislife" soustitre="100f" Icon={QrCode} Icon2={QrCode} />
-                <DashboardCard text="gogoislife" soustitre="100f" Icon={QrCode} Icon2={QrCode} />
+            <div className="flex flex-row flex-wrap  justify-between">
+                <DashboardCard text="QR Codes Créés" soustitre="3/50" Icon={QrCode} iconClassName="text-blue-800"/>
+                <DashboardCard text="Scans total"  soustitre="192" Icon={Activity} iconClassName="text-green-600" pourcentage="+12%"  />
+                <DashboardCard text="Scans Ce mois" soustitre="87" Icon={TrendingUp} iconClassName="text-amber-600" pourcentage="+8%" />
             </div>
 
-            <div className="flex flex-row justify-between p-6 border border-gray-300 rounded-xl  ">
+            <div className="flex flex-row justify-between px-7 py-8 border border-gray-300 rounded-xl  ">
                 <div className="flex flex-col ">
                     <h1 className="text-blue-950 text-[18px] font-bold ">Passez au plan Premium</h1>
                     <p className="text-gray-500 text-[18px]">Qr code illimités analytics avancées, personnalisation complète et bien plus encore</p>

@@ -5,7 +5,7 @@ import { Phone } from 'lucide-react'
 import Down from '../utils/Down'
 function Sms() {
     return (
-        <div className='flex flex-row justify-between mx-[15%] my-[8%]'>
+        <div className='flex flex-row justify-between mx-[15%] my-[10%]'>
             <div className='flex flex-col space-y-3 w-3/5'>
                 <div className='flex flex-col mb-5 '>
                     <h1 className=' font-bold text-[27px] text-blue-950 '> Créer un code Qr </h1>
@@ -17,7 +17,7 @@ function Sms() {
                     <Button className=" bg-white border-0 text-blue-950  hover:bg-amber-400 ">Changer de type </Button>
                 </div>
 
-                <div className=' space-y-5 shadow-xl border border-gray-200 rounded-xl p-6 '>
+                <div className=' space-y-5 border border-gray-200 rounded-xl p-6 '>
                     <div className='flex flex-row gap-2'>
                         <Phone className='w-5 h-5 text-blue-900 mt-1'/>
                         <h3 className='text-blue-950 font-bold text-[20px] '> SMS </h3>

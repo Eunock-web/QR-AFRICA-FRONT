@@ -3,7 +3,7 @@ import { UserCircle2Icon, Eye, Download } from "lucide-react"
 function HistoriqueDashboardCard() {
     return (
         <div>
-            <div className="border border-gray-300 p-3 rounded-2xl ">
+            <div className="border border-gray-300 p-3 rounded-2xl hover:shadow-lg ">
                 <div className="flex flex-row  justify-between  items-center">
                     <UserCircle2Icon className="w-10 h-10  text-blue-900 border border-white bg-gray-100  rounded-2xl p-2 mt-2  " />
                     <div className="flex flex-col space-y-1">

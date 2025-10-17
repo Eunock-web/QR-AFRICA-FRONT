@@ -22,10 +22,10 @@ function NavBar() {
 
         {/* Buttons */}
         <div className="flex gap-4">
-          <Button className="bg-white border-0 rounded-xl hover:bg-amber-400">
+          <Button className="bg-white border-0 rounded-xl text-blue-950 hover:bg-amber-400">
             Se connecter
           </Button>
-          <Button className="rounded-xl bg-amber-400">Commencer</Button>
+          <Button className="rounded-xl text-white bg-amber-400">Commencer</Button>
         </div>
         
       </nav>

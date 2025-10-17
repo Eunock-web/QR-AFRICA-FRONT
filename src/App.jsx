@@ -27,9 +27,10 @@ function App() {
       <NavBar2 />
       {/* <Register /> */}
       {/* <Login /> */}
+      {/* <Create /> */}
       {/* <Wifis /> */}
       <DashboardStandard />
-      <Footer />
+      {/* <Footer /> */}
       {/* <PostFooter /> */}
     </div>
   )

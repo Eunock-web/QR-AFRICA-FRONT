@@ -13,12 +13,12 @@ function Create() {
                     <h1 className="text-[23px] font-semibold text-blue-950 ">Type de Code QR </h1>
                     <div className="flex flex-row space-x-4 space-y-4 flex-wrap ">
                         <Card title="Lien Web" description="Site web, boutique en ligne, réseaux sociaux" className=" hover:shadow-blue-200  border border-gray-300 cursor-pointer " />
-                        <Card title="Card" description="Card" className=" hover:shadow-blue-200 cursor-pointer border border-gray-300"/>
-                        <Card title="Card" description="Card" className=" hover:shadow-blue-200 cursor-pointer border border-gray-300 cursor-pointer "/>
-                        <Card title="Card" description="Card" className=" hover:shadow-blue-200 cursor-pointer border border-gray-300 cursor-pointer "/>
-                        <Card title="Card" description="Card" className=" hover:shadow-blue-200 cursor-pointer border border-gray-300 cursor-pointer "/>
-                        <Card title="Card" description="Card" className=" hover:shadow-blue-200 cursor-pointer border border-gray-300 cursor-pointer "/>
-                        <Card title="Card" description="Card" className=" hover:shadow-blue-500 cursor-pointer border border-gray-300 cursor-pointer "/>
+                        <Card title="Card" description="Card" className=" hover:shadow-blue-300 cursor-pointer border border-gray-300"/>
+                        <Card title="Card" description="Card" className=" hover:shadow-blue-300 cursor-pointer border border-gray-300 cursor-pointer "/>
+                        <Card title="Card" description="Card" className=" hover:shadow-blue-300 cursor-pointer border border-gray-300 cursor-pointer "/>
+                        <Card title="Card" description="Card" className=" hover:shadow-blue-300 cursor-pointer border border-gray-300 cursor-pointer "/>
+                        <Card title="Card" description="Card" className=" hover:shadow-blue-300 cursor-pointer border border-gray-300 cursor-pointer "/>
+                        <Card title="Card" description="Card" className=" hover:shadow-blue-300 cursor-pointer border border-gray-300 cursor-pointer "/>
                     </div>
                 </div>
 

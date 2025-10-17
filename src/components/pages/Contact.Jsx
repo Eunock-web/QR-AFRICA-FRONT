@@ -18,7 +18,7 @@ function Contact() {
                     <Button className=" bg-white border-0 text-blue-950  hover:bg-amber-400 ">Changer de type </Button>
                 </div>
 
-                <div className=' space-y-5 shadow rounded-xl p-6 '>
+                <div className=' space-y-5 border border-gray-200 rounded-xl p-6 '>
                     <div className='flex flex-row gap-2'>
                         <User2 className='w-6 h-6 text-blue-950 mt-1 ' />
                         <h3 className='text-blue-950 font-bold text-[20px] '>Contact vCard</h3>

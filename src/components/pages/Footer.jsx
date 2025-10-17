@@ -1,5 +1,6 @@
 import PostFooter from "../Footer/PostFooter"
 import { QrCode, Mail, Phone, Map, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import FooterComponent from "../utils/FooterComponent"
 
 function Footer() {
     return ( 
@@ -55,7 +56,35 @@ function Footer() {
                     </div>
                 </div>
 
-                <div>
+                <div className="flex flex-row gap-5 justify-between px-[3%] border-t border-gray-200 border-b border-gray-200 py-10 ">
+                    <FooterComponent Icon={QrCode} titre="Produit" soustitre="Noté 5/5"/>
+                    <FooterComponent Icon={QrCode} titre="Produit" soustitre="Noté 5/5" />
+                    <FooterComponent Icon={QrCode} titre="Produit" soustitre="Noté 5/5" />
+                    <FooterComponent Icon={QrCode} titre="Produit" soustitre="Noté 5/5" />
+                </div>
+
+                <div className="flex flex-row gap-5 justify-between px-[3%] border-t border-gray-200  py-5 ">
+                    <div className="flex flex-row gap-2 left">
+                        <p>© 2024 QR Africa. Tous droits réservés.</p>
+                        <div className="flex flex-ro    w gap-2">
+                            <p>ISO 27001</p>
+                        </div>
+                        <div className="flex flex-row gap-2">
+                            <p>SOC 2</p>
+                        </div>
+                        <div className="flex flex-row gap-2">
+                            <p>GDPR Ready</p>
+                        </div>
+                    </div>
+
+                    <div className="flex flex-row gap-2 right">
+                        <p>Paiements sécurisés :</p>
+                        <div className="flex flex-row gap-1">
+                            <p> MTN MoMo </p>
+                            <p> Moov Money </p>
+                            <p> Orange Money </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
