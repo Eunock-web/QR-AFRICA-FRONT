@@ -24,7 +24,7 @@ import PostFooter from './components/Footer/PostFooter'
 function App() {
   return (
     <div className="">
-      {/* <NavBar /> */}
+      {/* <NavBar2 /> */}
       <Register />
       {/* <Login /> */}
       {/* <Create /> */}
