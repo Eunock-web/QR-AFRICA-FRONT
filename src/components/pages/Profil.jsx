@@ -44,7 +44,7 @@ function Profil() {
                         </div>
                     </div>
                     
-                    <div className="w-3/4">
+                    <div className="w-3/4">     
                         <div className='flex flex-col space-y-3 '>
                             <div className=' space-y-5 shadow rounded-xl p-6 '>
                                 <div className='flex flex-row  gap-2'>
